@@ -1,0 +1,30 @@
+.m1{
+    position: absolute;
+    left: 550px;
+}
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.m2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin-left: 0px;
+}
+
+.m3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    left: 100px;
+}
+.m4{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    left: 200px;
+   
+}

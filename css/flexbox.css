@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    /* making a contanier as flexbox */
+    height: 400px;
+    margin: 0px;
+    flex-direction: column;
+    border: 2px solid black;
+    /* anti row filling of blocks in a flexbox */
+    /* flex-wrap: wrap; */
+    /* if the screen size is reduced of adjusted then the content inside a flexbox is adjusted */
+    /* justify-content: center; */
+    /* aligns the data centerly */
+    /* justify-content: space-between; */
+    /* aligns the data equally spaced */
+    /* justify-content: space-evenly; */
+    /* aligns the data evenly */
+    /* justify-content: space-around; */
+    /* align-items: last baseline; */
+    /* aligns the content at a specified location in the container */
+}
+.label{
+    padding: 10px;
+    /* means spacing between the elements inside a container */
+    background-color: red;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /* means the spacing between two different containers */
+}
+#l-1{
+    order: 20;
+    /* with this order of the boxes in a container can stroke higher order means at the end; */
+    /* flex-grow: 3; */
+    /* higher means it will grow more as compared to other as the size of the container is enhanced */
+    /* flex-shrink: 2; */
+    /* chances while shrinking */
+    /* flex-basis: 200px; */
+    /* it will change the widht if flex direction is set to row
+    it will change height if flex direction in set to column */
+    align-self: center;
+    /* aligns a particular at the desired position in the flexbox; */
+    align-self: flex-start;
+}

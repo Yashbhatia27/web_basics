@@ -1,0 +1,25 @@
+.image{
+    /* float: left; */
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    /* margin-left: 400px; */
+
+}
+
+
+.image1{
+   /* left: 0px; */
+   float: left;
+}
+.name{
+    font-family: cursive;
+    color: aqua;
+    font-size: large;
+    margin: 10px auto 10px auto;
+}
+.mychut{
+    /* position: absolute; */
+    clear: right;
+    /* top: 200px; */
+}

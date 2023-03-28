@@ -1,0 +1,9 @@
+div.container h1.clear{
+    /* here no space means that it is the description of the given container whether the class name or id */
+    /* whereas space means we are going down to the hierarchy */
+    color: red;
+}
+div.container h1.html{
+    /* same goes for this case */
+    color: blue;
+}

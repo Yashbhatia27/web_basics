@@ -1,0 +1,13 @@
+p{
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    
+}
+/* .my_class{
+    padding-right: 10px;
+    height: 200px;
+} */
+.adi_lun{
+    visibility: hidden;
+}

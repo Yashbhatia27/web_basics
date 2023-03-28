@@ -1,0 +1,33 @@
+.m1
+{
+    position: relative;
+    left: 500px;
+}
+.m2{
+    display: inline-block;
+    /* scince span is inline but we have to resize it */
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position:relative;
+    left: 400px;
+}
+.m3{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    /* necesary for shifting */
+    right: 200px;
+    /* shifts the image to left by 200px */
+}
+.m4{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    /* remember color is for text and background-color is for background: display: display: display: ;;; */
+    position: relative;
+    right: 200px;
+}
